@@ -1,0 +1,2 @@
+python-telegram-bot
+pandas==0.20.3
