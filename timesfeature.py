@@ -95,7 +95,8 @@ def getCellNumber(day):
 
 # get prayer times given the cellRange
 def getPrayerTimes(filename, cellNumber):
-    filepath = "/prayertimesdata/elm-" + filename + ".csv"
+    
+    filepath = "\prayertimesdata\elm-" + filename + ".csv"
     times_data = pd.read_csv(filepath, encoding = "latin1")
     
     times_data = times_data.iloc[[cellNumber]]
