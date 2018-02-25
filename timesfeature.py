@@ -23,7 +23,19 @@ def monthToNum(monthCode):
                 'sep' : 9, 
                 'oct' : 10,
                 'nov' : 11,
-                'dec' : 12
+                'dec' : 12,
+                'january' : 1,
+                'february' : 2,
+                'march' : 3,
+                'april' : 4,
+                'may' : 5,
+                'june' : 6,
+                'july' : 7,
+                'august' : 8,
+                'september' : 9, 
+                'october' : 10,
+                'november' : 11,
+                'december' : 12
         }[monthCode]
 
 # given the monthCode (1 to 12)
