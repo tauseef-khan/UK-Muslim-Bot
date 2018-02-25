@@ -3,6 +3,7 @@ import os
 import sys
 
 import locationfeature
+import timesfeature
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from telegram import KeyboardButton, ReplyKeyboardMarkup
@@ -45,6 +46,11 @@ def getMosques(bot, update):
         bot.send_message(chat_id=update.message.chat_id, text=message_text, parse_mode="Markdown")
         count = count + 1
 
+def getPrayertimes(bot, update, args):
+
+    timesMessage = timesfeature.construct_schedule(args)
+    bot.send_message(chat_id=update.message.chat_id, text=timesMessage, parse_mode="Markdown")
+
 # method for debuggung
 def log(message):
 
@@ -70,6 +76,11 @@ if __name__ == "__main__":
     dp = updater.dispatcher
 
     # ADD HANDLERS
+    
+    #echo command
+    #dp.add_handler(MessageHandler(Filters.text, echo))
+    #dp.add_handler(error)
+
     # start command
     dp.add_handler(CommandHandler('start', start))
 
@@ -77,8 +88,8 @@ if __name__ == "__main__":
     dp.add_handler(CommandHandler('location', location))
     dp.add_handler(MessageHandler(Filters.location, getMosques))
 
-    #dp.add_handler(MessageHandler(Filters.text, echo))
-    #dp.add_handler(error)
+    # prayer times command.
+    dp.add_handler(CommandHandler('pt', getPrayertimes, pass_args=True))
 
     # Start the webhook
     updater.start_webhook(listen="0.0.0.0",

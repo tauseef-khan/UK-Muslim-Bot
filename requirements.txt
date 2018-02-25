@@ -1,2 +1,4 @@
 python-telegram-bot
 pandas==0.20.3
+pytz==2015.7
+pandas==0.20.3
