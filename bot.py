@@ -4,6 +4,7 @@ import sys
 
 import locationfeature
 import timesfeature
+import commandslistfeature
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from telegram import KeyboardButton, ReplyKeyboardMarkup
@@ -51,6 +52,12 @@ def getPrayertimes(bot, update, args):
     timesMessage = timesfeature.construct_schedule(args)
     bot.send_message(chat_id=update.message.chat_id, text=timesMessage, parse_mode="Markdown")
 
+
+def getCommands(bot, update):
+    message = commandslistfeature.readCommands()
+    bot.send_message(chat_id=update.message.chat_id, text=message, parse_mode="Markdown")
+
+
 # method for debuggung
 def log(message):
 
@@ -90,6 +97,9 @@ if __name__ == "__main__":
 
     # prayer times command.
     dp.add_handler(CommandHandler('pt', getPrayertimes, pass_args=True))
+
+    # show commands command
+    dp.add_handler(CommandHandler('commands', getCommands))
 
     # Start the webhook
     updater.start_webhook(listen="0.0.0.0",
