@@ -7,6 +7,6 @@ def readCommands():
 
 	message = ""
 	for line in lines:
-    	message += line
+		message += line
 
-    return message
+	return message
