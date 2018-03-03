@@ -58,7 +58,7 @@ def getCommands(bot, update):
     message = commandslistfeature.readCommands()
     bot.send_message(chat_id=update.message.chat_id, text=message, parse_mode="Markdown")
 
-def getDataSourcesInfo(bot, update)):
+def getDataSourcesInfo(bot, update):
     message = datasourcefeature.readSourceInformation()
     bot.send_message(chat_id=update.message.chat_id, text=message, parse_mode="Markdown")
 
