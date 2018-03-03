@@ -5,6 +5,7 @@ import sys
 import locationfeature
 import timesfeature
 import commandslistfeature
+import datasourcefeature
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from telegram import KeyboardButton, ReplyKeyboardMarkup
@@ -57,6 +58,9 @@ def getCommands(bot, update):
     message = commandslistfeature.readCommands()
     bot.send_message(chat_id=update.message.chat_id, text=message, parse_mode="Markdown")
 
+def getDataSourcesInfo(bot, update)):
+    message = datasourcefeature.readSourceInformation()
+    bot.send_message(chat_id=update.message.chat_id, text=message, parse_mode="Markdown")
 
 # method for debuggung
 def log(message):
@@ -100,6 +104,9 @@ if __name__ == "__main__":
 
     # show commands command
     dp.add_handler(CommandHandler('commands', getCommands))
+
+    # data source command
+    dp.add_handler(CommandHandler('data', getDataSourcesInfo))
 
     # Start the webhook
     updater.start_webhook(listen="0.0.0.0",
