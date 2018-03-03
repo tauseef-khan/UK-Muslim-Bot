@@ -1,0 +1,5 @@
+UK Muslim Bot command list:
+
+*/pt -* get the prayer times for today (e.g. /pt) or specify a date (e.g. 25 Feb or 25 February) to get prayer times for that particular day (times given are accurate for that calendar year)
+*/location -* share your location to get the 5 closest masjids near you
+*/commands -* brings up full list of available commands and description of their function
