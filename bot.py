@@ -12,7 +12,7 @@ from telegram import KeyboardButton, ReplyKeyboardMarkup
 
 
 def start(bot, update):
-    message_text = "Salaam, Enter */command* to find out the features of this bot!"
+    message_text = "Salaam, Enter */commands* to find out the features of this bot!"
     bot.send_message(chat_id=update.message.chat_id, text=message_text, parse_mode="Markdown")
 
 def echo(bot, update):
