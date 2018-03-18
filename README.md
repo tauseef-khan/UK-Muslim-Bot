@@ -17,6 +17,6 @@ Features which are on the roadmap:
 - Feedback feature
 - Unique user counter
 - Message when the time comes in for each prayer
-- Get in touch with [Tower Hamlets Mosques Admins](http://www.towerhamletsmosques.co.uk/) and [Redbridge Mosques Admins](www.redbridgemosques.com) and see if we can collaborate to provide prayer times for specific mosques
+- Get in touch with [Tower Hamlets Mosques Admins](http://www.towerhamletsmosques.co.uk/) and [Redbridge Mosques Admins](https://www.redbridgemosques.com/) and see if we can collaborate to provide prayer times for specific mosques
 
 DISCLAIMER: This repo uses the base code of [Eldinnie's repo](https://github.com/Eldinnie) called *ptb-heroku-skeleton*.
