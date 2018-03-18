@@ -1,6 +1,6 @@
 # UK Muslim Bot
 
-Telegram link: [UK Muslim Bot](t.me/UKMuslimBot)
+Telegram link: [UK Muslim Bot](https://t.me/UKMuslimBot)
 
 This is a Telegram bot which has the following features:
 * Get top 5 closest mosques qhe  user shares location
