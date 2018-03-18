@@ -12,7 +12,8 @@ from telegram import KeyboardButton, ReplyKeyboardMarkup
 
 
 def start(bot, update):
-    bot.send_message(chat_id=update.message.chat_id, text="I'm a bot, please talk to me!")
+    message_text = "Salaam, Enter */command* to find out the features of this bot!"
+    bot.send_message(chat_id=update.message.chat_id, text=message_text, parse_mode="Markdown")
 
 def echo(bot, update):
     update.effective_message.reply_text(update.effective_message.text)
