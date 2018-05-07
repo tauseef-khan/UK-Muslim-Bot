@@ -14,6 +14,7 @@ Features which are currenty being developed:
 
 Features which are on the roadmap:
 - Telegram command for prayer time differences in UK
+- Update distance calculation to be done by roads and not how the crow flies
 - Feedback feature
 - Unique user counter
 - Message when the time comes in for each prayer
