@@ -3,5 +3,5 @@
 - Click [here](http://www.eastlondonmosque.org.uk/) for the prayer times for 2018.
 
 *Masjid data:*
-- The masjid data is taken from the Muslims in Britain website. It will be updated on a montly basis on the 1st of each month. 
+- The masjid data is taken from the Muslims in Britain website. It will be updated on a regular basis. Last update: 7th May 2018. 
 - Click [here](http://mosques.muslimsinbritain.org/gps.php) and then click on the 'mosque image' link to download the full dataset.
