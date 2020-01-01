@@ -151,7 +151,7 @@ def construct_schedule(date):
 
     # GLOBAL VARIABLES
     # to be changed at the start of a new year
-    year = 2019
+    year = 2020
     strYear = str(year)[2:4]
 
     #now = None
