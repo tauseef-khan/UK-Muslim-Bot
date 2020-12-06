@@ -3,5 +3,5 @@
 - Click [here](https://www.eastlondonmosque.org.uk/Handlers/Download.ashx?IDMF=412cad42-a836-45e8-b6b3-3c2644612b0f) for the prayer times for 2020.
 
 *Masjid data:*
-- The masjid data is taken from the Muslims in Britain website. It will be updated on a regular basis. Last update: 11th October 2020. 
+- The masjid data is taken from the Muslims in Britain website. It will be updated on a regular basis. Last update: 6th December 2020. 
 - Click [here](http://mosques.muslimsinbritain.org/gps.php) and then click on the 'this file' link to download the full dataset.
