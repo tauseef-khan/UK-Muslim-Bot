@@ -1,6 +1,6 @@
 *Prayer times:*
 - The prayer times used are from East London Mosque. The prayer times will be updated on a yearly basis at the start of each new calendar year. 
-- Click [here](https://www.eastlondonmosque.org.uk/Handlers/Download.ashx?IDMF=412cad42-a836-45e8-b6b3-3c2644612b0f) for the prayer times for 2020.
+- Click [here](https://www.eastlondonmosque.org.uk/Handlers/Download.ashx?IDMF=cf70f27e-e215-45e4-b6ab-5d07ea82f8c4) for the prayer times for 2021.
 
 *Masjid data:*
 - The masjid data is taken from the Muslims in Britain website. It will be updated on a regular basis. Last update: 11th October 2020. 
